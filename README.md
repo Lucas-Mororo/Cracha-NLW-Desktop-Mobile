@@ -6,6 +6,7 @@
   <a href="#funcionalidades-extras">Funcionalidades</a>
 </p>
 <p align="center">
+  <h2> Projeto desktop </h2>
   <img alt="Preview" src="https://github.com/Lucas-Mororo/Cracha-NLW-Desktop-Mobile/blob/main/images/Captura%20de%20tela%20Desktop.png" width="100%">
   <img height='300px' width='auto' alt="Preview" src="https://github.com/Lucas-Mororo/Cracha-NLW-Desktop-Mobile/blob/main/images/Captura%20de%20tela%20Mobile.png" width="100%">
 </p>
