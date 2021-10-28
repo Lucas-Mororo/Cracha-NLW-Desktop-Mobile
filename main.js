@@ -50,8 +50,8 @@ submit.addEventListener('click', function (e) {
   }
 
   function getUserBio(data) {
-    if (data.length > 80) {
-      data = data.slice(0, 80)
+    if (data.length > 104) {
+      data = data.slice(0, 100)
       data += '...'
     }
     return data
