@@ -9,6 +9,7 @@
     <img height='300px' width='auto' src='https://github.com/Lucas-Mororo/Cracha-NLW-Desktop-Mobile/blob/main/images/Captura%20de%20tela%20Mobile.png' />
   </div>
 </div>
+<p align='center'> -> Veja como ficou o projeto <a href='https://lucas-mororo.github.io/Cracha-NLW-Desktop-Mobile/'> aqui </a> <- </p>
 
 ## Tecnologias
  Esse projeto foi desenvolvido com as seguintes tecnologias:
