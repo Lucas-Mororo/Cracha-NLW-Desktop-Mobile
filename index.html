@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Mororó - DoWhile 2021</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f401b55744.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <img id="faixa" src="images/faixa.png" alt="" />
+    <div class="glassEffect"></div>
+    <main>
+      <div class="container">
+        <div class="avatar" id="avatar">
+          <span class="rotate">
+            <img src="images/build.svg" alt="Selo Rocketseat" />
+          </span>
+          <img id="userImage" src="" alt="Foto pessoal" />
+        </div>
+        <h1 id="userName"></h1>
+        <a id="userLink" href="https://github.com/" target="_blank">
+          <img src="images/github.svg" alt="ícone github" />
+          <span id="usernameGitHub"></span
+        ></a>
+        <p id="userBio">
+          An instructor focused on helping pople start programming for web
+        </p>
+        <span class="build">#BuildTheFuture</span>
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/" target="_blank">
+              <img src="images/youtube.svg" alt="ícone youtube" />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://facebook.com/" target="_blank">
+              <img src="images/facebook.svg" alt="ícone facebook" />
+            </a>
+          </li>
+          <li class="instagram">
+            <a href="https://instagram.com/" target="_blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/" target="_blank">
+              <img src="images/twitter.svg" alt="ícone twitter" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <div class="modal-overlay active">
+      <div class="modal">
+        <p>
+          CRIE SEU CRACHÁ<br />
+          DOWHILE 2021
+        </p>
+        <form>
+          <div class="formulario">
+            <div class="campo">
+              <i class="fab fa-github"></i>
+              <input id="getGitHub" type="text" placeholder="github username" />
+            </div>
+            <div class="campo">
+              <i class="fab fa-youtube"></i>
+              <input
+                id="getYoutube"
+                type="text"
+                placeholder="youtube username"
+              />
+            </div>
+            <div class="campo">
+              <i class="fab fa-facebook"></i>
+              <input
+                id="getFacebook"
+                type="text"
+                placeholder="facebook username"
+              />
+            </div>
+            <div class="campo">
+              <i class="fab fa-instagram"></i>
+              <input
+                id="getInstagram"
+                type="text"
+                placeholder="instagram username"
+              />
+            </div>
+            <div class="campo">
+              <i class="fab fa-twitter"></i>
+              <input
+                id="getTwitter"
+                type="text"
+                placeholder="twitter username"
+              />
+            </div>
+          </div>
+          <button onclick="Modal.close()" id="submit">GERAR CRACHÁ</button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
