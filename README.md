@@ -1,6 +1,9 @@
 # Cracha-NLW-Desktop-Mobile
 <div align='center'>
   <div>
+    <h2> Formulario de preenchimento do seu crachá </h2>
+    <img height='300px' width='auto' src='https://github.com/Lucas-Mororo/Cracha-NLW-Desktop-Mobile/blob/main/images/Fomulario%20.png' />
+  </div>
     <h2> Projeto desktop </h2>
     <img height='300px' width='auto' src='https://github.com/Lucas-Mororo/Cracha-NLW-Desktop-Mobile/blob/main/images/Captura%20de%20tela%20Desktop.png' />
   </div>
